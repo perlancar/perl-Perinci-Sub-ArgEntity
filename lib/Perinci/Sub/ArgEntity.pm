@@ -53,7 +53,7 @@ argument specification, like:
  file => {
      # specification for 'file' argument
      schema  => 'str*',
-     completion => \&Complete::Util::complete_file,
+     completion => \&Complete::File::complete_file,
  },
 
 you just specify the argument as being of a certain entity using the attribute
