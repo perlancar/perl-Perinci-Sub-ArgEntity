@@ -42,6 +42,14 @@ L<Perinci::Sub::ArgEntity::riap_url>.
 
 =head1 DESCRIPTION
 
+B<STATUS:> This module is now deprecated. It is now preferred to express the
+"type" or "entity" of a schema in the schema name itself, e.g.
+L<Sah::Schema::filename> instead of L<Perinci::Sub::ArgEntity::filename>,
+reducing duplication. To specify completion rule in the L<Sah> schema instead of
+in the L<Rinci> argument specification, you can use
+L<Perinci::Sub::XCompletion>. So far, Perinci::Sub::ArgEntity *is* only used to
+specify completion rule.
+
 The namespace C<Perinci::Sub::ArgEntity::*> is used to put data and routine
 related to certain types (entities) of function arguments.
 
