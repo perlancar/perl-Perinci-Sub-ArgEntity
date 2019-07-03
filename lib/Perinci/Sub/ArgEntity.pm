@@ -4,7 +4,7 @@ package Perinci::Sub::ArgEntity;
 # VERSION
 
 1;
-#ABSTRACT: Convention for Perinci::Sub::ArgEntity::* modules
+#ABSTRACT: (DEPRECATED) Convention for Perinci::Sub::ArgEntity::* modules
 
 =head1 SYNOPSIS
 
